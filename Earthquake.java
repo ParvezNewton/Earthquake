@@ -1,8 +1,4 @@
-package com.aquib.quake;
 
-/**
- * Created by Lenovo on 10/11/2016.
- */
 public class Earthquake {
     private String mag;
     private String loc;
