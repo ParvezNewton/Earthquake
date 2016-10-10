@@ -1,4 +1,3 @@
-package com.aquib.quake;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +8,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Lenovo on 10/11/2016.
- */
+
 public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
     public EarthquakeAdapter(Context context, ArrayList<Earthquake> resource) {
         super(context,0, resource);
